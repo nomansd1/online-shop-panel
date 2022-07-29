@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    >
+</head>
+<body>
+    <header>
+        <div class="header_nav">
+            <a href="Index.html" class="app_logo">
+                <img src="assets/images/logo-big-beta.png" alt="" srcset=""> 
+             </a>
+            <div class="search_bar">
+                <div class="search_dropdown">
+                    <select name="" id="">
+                        <option value="">hello1</option>
+                        <option value="">hello1</option>
+                        <option value="">hello1</option>
+                    </select>
+                </div>
+              <input type="text">
+              <i class="fa fa-search"></i>
+            </div>
+            <div class="cartBx">
+                <div class="cart">
+                    <a href="orderHistory.html" class="flex_col">
+                        Orders History
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="#">link</a>
+                </div>
+                <div class="cart">
+                    <a href="checkout.html">
+                        <span>0</span>
+                        <i class="fa fa-shopping-cart"></i>
+                        <p>cart</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="checkoutBx">
+        <div class="checkout_inner">
+            <!-- left side -->
+            <div class="shopping_cart">
+                <div class="cart_card">
+                    <h1>Shopping Cart</h1>
+                    <div class="checkout_product">
+                        <img src="assets/images/product.png" alt="" srcset="">
+                        <div class="checkout_product_details">
+                            <p>lorem ipsum dolar gahdf</p>
+                            <p>$32,0</p>
+                            <div class="product_qty">
+                                <button>+</button>
+                                <p class="small">2</p>
+                                <button>-</button>
+                            </div>
+                            <button class="btn">Remove From Basket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right side -->
+        <div class="sub_total">
+            <h3>
+                Subtotal (2 items): 
+                <span>$322</span>
+            </h3>
+            <form action="" class="checkout_form">
+                <h3>Billing Details</h3>
+                <div class="fieldset flex_row">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                </div>
+                <div class="fieldset flex_col">
+                    <input class="large_fieldset" type="text" placeholder="Address line 1">
+                    <input class="large_fieldset" type="text" placeholder="Address line 2">
+                </div>
+                <div class="fieldset">  
+                    <input class="large_fieldset" type="tel" placeholder="Contact no">
+                </div>
+                <h3>Shipping to another address</h3>
+                <div class="fieldset flex_row">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                </div>
+                <div class="fieldset flex_col">
+                    <input class="large_fieldset" type="text" placeholder="Address line 1">
+                    <input class="large_fieldset" type="text" placeholder="Address line 2">
+                </div>
+                <div class="fieldset">  
+                    <input class="large_fieldset" type="tel" placeholder="Contact no">
+                </div>
+            </form>
+            <button class="btn">Proceed To Checkout</button>
+        </div>
+
+    </main>
+</body>
+</html>
