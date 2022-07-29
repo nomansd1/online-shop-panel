@@ -27,6 +27,21 @@ body::-webkit-scrollbar-thumb {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    outline: none;
+}
+.del_item {
+    background: #dc3545 !important;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.del_item button {
+    background: none !important;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-left: 5px;
+    text-align: center;
 }
 .btn:focus {
     outline: none;
@@ -322,7 +337,7 @@ footer p {
 .checkout_form {
     margin: 20px 0;
 }
-.checkout_form h3 {
+.checkout_form h4 {
     margin-bottom: 5px;
     font-weight: 500;
 }
